@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Conversion</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="height-conversion">
+        <div class="feet-to-cm">
+            <h2>Height Conversion</h2>
+
+            <div class="form-control">
+                <label for="feet">Feet</label>
+                <input type="text" id="feet">
+            </div>
+            <div class="form-control">
+                <label for="inch">Inches</label>
+                <input type="text" id="inch">
+            </div>
+            <div class="form-submit">
+                <input type="submit" value="convert" onclick="validateAndConvertHeight()">
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
